@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="click_button">Click Here</string>
+    <string name="gmail_message">Please enter your gmail username and password to sign in</string>
+    <string name="login_text">Click button to login.</string>
+    <string name="title_activity_class_list_view">Class List</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main_list_view">Main List</string>
+    <string name="title_activity_main_list">Main List</string>
+    <string name="title_activity_settings_view">SettingsView</string>
+    <string name="title_activity_team">Teams</string>
+    <string name="title_activity_picture">Pictures</string>
+    <string name="tap">Tap the icon to open the camera!!</string>
+    <string name="title_activity_team_member">Team Members</string>
+    <string name="title_activity_invites">Invites</string>
+    <string name="drop_class">Drop Class</string>
+    <string name="add_class">Add Class</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_notes">Notes</string>
+    <string name="title_activity_notes_view">Notes</string>
+
+</resources>

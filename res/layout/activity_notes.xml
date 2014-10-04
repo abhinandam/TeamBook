@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+     <TextView
+         android:id="@+id/yourNotes"
+         android:layout_width="250dp"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:fontFamily="sans-serif-condensed"
+         android:text="Your Notes"
+           android:layout_marginLeft="5dp"
+         android:textColor="#FFFFFF"
+         android:textSize="30sp"
+         android:textStyle="bold" />
+     
+      <Button
+            android:id="@+id/createButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:onClick="createNote"
+            android:background="@drawable/gradient2"
+            android:text="Create" />
+     </TableRow>
+     
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="174dp"
+        android:drawSelectorOnTop="false" />
+    
+    <TextView
+              android:id="@+id/sharedNotes"
+              android:layout_width="204dp"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="5dp"
+              android:ems="10"
+              android:fontFamily="sans-serif-condensed"
+              android:text="Shared Notes"
+              android:textColor="#FFFFFF"
+              android:textSize="30sp"
+              android:textStyle="bold" />
+     
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="174dp"
+        android:drawSelectorOnTop="false" />
+
+</LinearLayout>
